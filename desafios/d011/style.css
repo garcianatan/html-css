@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+}
+
+div#conteiner {
+    background: #000 url(espaco.jpg) no-repeat fixed center center;
+    background-size: cover;
+
+    position: relative;
+    height: 100vh;
+}
+
+div#conteudo {
+    background-image: url(astronauta.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+   
+}
+
